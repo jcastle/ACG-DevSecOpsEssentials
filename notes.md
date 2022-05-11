@@ -41,4 +41,52 @@ https://learn.acloud.guru/course/303a1677-0bc8-41d2-bbe0-66ae7e4e01c0/overview
 
 ### Cybersecurity Concepts - Part 2
 
--
+- Common Vulnerabilities and Exposures (CVE)
+- National Vulnerability Database (NVD)
+- National Checklist Program Repository
+
+### Identity and Access Management
+
+- DevSecOps Pipeline Flow security - Server hardening, application hardening, and identity and access management
+- IAM - process of granting or restricting access to users and groups
+
+## Secure Software Onboarding
+
+- Process developers use to acquire third party components needed to develop and compile an application
+
+### Clean Repositories
+
+- Attack vectors are often exploited in public systems
+- Use firewalls for on-prem resources, use scanning for onboarded SW
+- PaaS requires repository hardening
+
+### Securing Public Repositories
+
+- Hackers can study public source code to learn how to exploit the SW
+- Hackers can look for vulnerabilities that are more difficult to detect through the penetration of production systems
+- Login credentials - embed login credentials in the code itself; microservice architectures increase attack vectors w/ login credentials (12 factor app, store env and login credentials on prompt or through .git ignore)
+- Insider threats - a single developer accessing many repositories or code bases; no monitoring of GH repos over time
+- Practical DevSecOps to tighten security w/ public repos
+  - Clean up login credentials, limit access, revoke credentials when individuals leave project/company
+  - Maintain repo settings - treat all GH as open source repos, consider the community
+- Security requires effort
+
+### Secure Containerization
+
+- Containers - formatted files that contain executable application programs, modules, and the code libraries they depend upon
+- Docker Hub - collection of images - public, private, and official
+
+### Docker Trusted Registries
+
+- Trusted registries are secure managed repositories
+- A registry is the data store that contains metadata
+- Trusted registries use digital signature
+- Trusted registries key to trusted automation
+- Docker uses private keys to sign containers
+
+### Docker Bench
+
+- SW tool that analyzes server infrastructure and Docker components
+- Uses CIS Docker Benchmark
+- Dock Swarm is a native clustering solution from Docker that can be used for container orchestration
+- TUF (Trusted Update Framework) used to enforce content trust
