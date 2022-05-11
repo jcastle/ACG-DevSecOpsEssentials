@@ -91,4 +91,6 @@ https://learn.acloud.guru/course/303a1677-0bc8-41d2-bbe0-66ae7e4e01c0/overview
 - Dock Swarm is a native clustering solution from Docker that can be used for container orchestration
 - TUF (Trusted Update Framework) used to enforce content trust
 
-## Next section post demo
+## Secure Build Automation
+
+### Provisioning with PaaS Tooling
