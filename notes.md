@@ -88,7 +88,7 @@ https://learn.acloud.guru/course/303a1677-0bc8-41d2-bbe0-66ae7e4e01c0/overview
 
 - SW tool that analyzes server infrastructure and Docker components
 - Uses CIS Docker Benchmark
-- Dock Swarm is a native clustering solution from Docker that can be used for container orchestration
+- Docker Swarm is a native clustering solution from Docker that can be used for container orchestration
 - TUF (Trusted Update Framework) used to enforce content trust
 
 ## Secure Build Automation
